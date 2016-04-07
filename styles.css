@@ -3,9 +3,6 @@ body{
 	font-family: arial;
 }
 
-#filmography{
-
-}
 
 table{
 	width: 300px;
@@ -46,4 +43,8 @@ tr .year{
 
 .navbar{
 	margin-top: 110px;
+}
+
+form{
+	background: blue;
 }
