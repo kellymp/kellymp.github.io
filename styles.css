@@ -53,3 +53,19 @@ form{
 	border: solid #e6e6e6 3px;
 	border-radius: 5px;
 }
+
+form h4{
+	color: #e6e6e6;
+	font-size: 40px;
+	font-family: futura;
+	text-align: left;
+	margin-bottom: 2px;
+}
+
+form label{
+	color: #e6e6e6;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 2px;
+}
