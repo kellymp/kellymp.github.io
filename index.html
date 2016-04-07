@@ -6,8 +6,8 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<img src="WAC.jpg" alt="Characters" height="320" width="950" />
-<h1>Wes Anderson Films</h1>
+<img id="people" src="WAC.jpg" alt="Characters" />
+<h1 id="maintitle">Wes Anderson Films</h1>
 
 <!--<p>Wes Anderson films are known for:</p>
 <ul>
@@ -19,14 +19,14 @@
 	<li>Casting of reoccuring actors (Ex: Bill Murray)</li>
 </ul>-->
 
-<ul>
+<ul class="navbar">
 	<li><a class="active" href="index.html">Home</a></li>
 	<li><a href="grand_budapest.html">The Grand Budapest Hotel</a></li>
 	<li><a href="moonrise_kingdom.html">Moonrise Kingdom</a></li>
 	<li><a href="life_aquatic.html">The Life Aquatic</a></li>
 </ul>
 
-
+<!--
 <div>
 <h2>Filmography</h2>
 <table border=1>
@@ -50,35 +50,49 @@
 		<td><nav> <a href="life_aquatic.html">The Life Aquatic</a></nav></td>
 		<td>2004</td>
 	</tr>
-</table>
-<p></p>
+</table> <!-->
+
+<br>
+<div id="filmography">
 <table border="1">
 	<tr>
-		<th colspan="2">All Filmography</th>
+		<th colspan="2">Filmography</th>
 	</tr>
 	<tr>
 		<th>Film</th>
 		<th>Year</th>
 	</tr>
 	<tr>
-		<td>Fantastic Mr. Fox</td>
-		<td>2009</td>
+		<td class="title">The Grand Budapest Hotel</td>
+		<td class="year">2014</td>
 	</tr>
 	<tr>
-		<td>The Darjeeling Limited</td>
-		<td>2007</td>
+		<td class="title">Moonrise Kingdom</td>
+		<td class="year">2012</td>
 	</tr>
 	<tr>
-		<td>The Royal Tenenbaums</td>
-		<td>2001</td>
+		<td class="title">Fantastic Mr. Fox</td>
+		<td class="year">2009</td>
 	</tr>
 	<tr>
-		<td>Rushmore</td>
-		<td>1998</td>
+		<td class="title">The Darjeeling Limited</td>
+		<td class="year">2007</td>
 	</tr>
 	<tr>
-		<td>Bottle Rocket</td>
-		<td>1996</td>
+		<td class="title">The Life Aquatic</td>
+		<td class="year">2004</td>
+	</tr>
+	<tr>
+		<td class="title">The Royal Tenenbaums</td>
+		<td class="year">2001</td>
+	</tr>
+	<tr>
+		<td class="title">Rushmore</td>
+		<td class="year">1998</td>
+	</tr>
+	<tr>
+		<td class="title">Bottle Rocket</td>
+		<td class="year">1996</td>
 	</tr>
 </table>
 </div>
@@ -113,6 +127,6 @@
 </div>
 </form>
 
-<p> Thank you Matt Zoller Seitz for the publicly licensed <a href="http://www.peopleofprint.com/wp-content/uploads/2013/10/FeatureWesAnderson010.jpg">photo</a> from the <a href="http://www.abramsbooks.com/product/wes-anderson-collection_9780810997417/">Wes Anderson Collection</a>
+<p class="cite"> Thank you Matt Zoller Seitz for the publicly licensed <a href="http://www.peopleofprint.com/wp-content/uploads/2013/10/FeatureWesAnderson010.jpg">photo</a> from the <a href="http://www.abramsbooks.com/product/wes-anderson-collection_9780810997417/">Wes Anderson Collection</a>
 </body>
 </html>

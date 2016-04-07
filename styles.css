@@ -1,5 +1,49 @@
 body{
 	background: white;
-	font-family: futura;
+	font-family: arial;
 }
 
+#filmography{
+
+}
+
+table{
+	width: 300px;
+}
+
+th{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+tr .title{
+	font-size: 15px;
+	text-align: left;
+}
+
+tr .year{
+	font-size: 15px;
+	text-align: right;
+}
+
+#people {
+	position: absolute;
+	top: 0;
+	right:0;
+	left: 0;
+	height: 250px;
+	width: 100%;
+	z-index: -1;
+}
+
+#maintitle{
+	color: #336699;
+	font-family: futura;
+	font-size: 5em;
+	text-align: center;
+	text-shadow: 5px 5px 5px #ffffe6;
+}
+
+.navbar{
+	margin-top: 110px;
+}
