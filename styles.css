@@ -46,8 +46,8 @@ tr .year{
 }
 
 form{
-	width: 500px;
-	height: 200px;
+	width: 510px;
+	height: 170px;
 	background-image: url("walking.jpeg");
 	background-repeat: no-repeat;
 	border: solid #e6e6e6 3px;
@@ -60,12 +60,13 @@ form h4{
 	font-family: futura;
 	text-align: left;
 	margin-bottom: 2px;
+	margin-left: 6px;
 }
 
 form label{
 	color: #e6e6e6;
-	font-size: 20px;
+	font-size: 15px;
 	padding: 5px;
 	text-align: center;
-	margin-top: 2px;
+	margin: 2px;
 }
