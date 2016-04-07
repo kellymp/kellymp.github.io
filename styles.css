@@ -47,6 +47,9 @@ tr .year{
 
 form{
 	width: 500px;
+	height: 200px;
 	background-image: url("walking.jpeg");
 	background-repeat: no-repeat;
+	border: solid #e6e6e6 3px;
+	border-radius: 5px;
 }
