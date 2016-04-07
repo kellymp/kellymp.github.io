@@ -1,6 +1,6 @@
 body{
 	background: white;
-	font-family: futura;
+	font-family: arial;
 }
 
 #filmography{
@@ -38,7 +38,12 @@ tr .year{
 
 #maintitle{
 	color: #336699;
+	font-family: futura;
 	font-size: 5em;
 	text-align: center;
-	text-shadow: 5px 5px 5px white;
+	text-shadow: 5px 5px 5px #ffffe6;
+}
+
+.navbar{
+	margin-top: 110px;
 }
