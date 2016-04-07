@@ -3,9 +3,6 @@ body{
 	font-family: arial;
 }
 
-#filmography{
-
-}
 
 table{
 	width: 300px;
@@ -46,4 +43,30 @@ tr .year{
 
 .navbar{
 	margin-top: 110px;
+}
+
+form{
+	width: 510px;
+	height: 170px;
+	background-image: url("walking.jpeg");
+	background-repeat: no-repeat;
+	border: solid #e6e6e6 3px;
+	border-radius: 5px;
+}
+
+form h4{
+	color: #e6e6e6;
+	font-size: 40px;
+	font-family: futura;
+	text-align: left;
+	margin-bottom: 2px;
+	margin-left: 6px;
+}
+
+form label{
+	color: #e6e6e6;
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+	margin: 2px;
 }
