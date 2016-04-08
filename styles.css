@@ -5,6 +5,9 @@ body{
 	margin: 0 auto;
 }
 
+h1,h2,h3,h4{
+	font-family: futura;
+}
 
 table{
 	width: 300px;
@@ -25,7 +28,7 @@ tr .year{
 	text-align: right;
 }
 
-#people {
+.people {
 	position: absolute;
 	top: 35px;
 	right: 0;
@@ -56,7 +59,6 @@ form{
 form h4{
 	color: #e6e6e6;
 	font-size: 40px;
-	font-family: futura;
 	text-align: left;
 	margin-bottom: 2px;
 	margin-left: 6px;
