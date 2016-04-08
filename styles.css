@@ -115,3 +115,8 @@ li a {
 	padding: 10px 15px;
 	display: block;
 }
+
+li a:hover:not(.active) {
+    background-color: #336699;
+    color: white;
+}
