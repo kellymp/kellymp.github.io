@@ -88,8 +88,9 @@ form label{
 	display: inline-block;
 	position: relative;
 	margin: 5px;
-	top: 0px;
+	bottom: 145px;
 	left: 700px;
+	z-index: -1
 }
 
 /*#comparison{
@@ -126,9 +127,10 @@ li#nav  a:hover:not(.active) {
 }
 
 .content{
-	width: 550px;
+	width: 650px;
 	margin: 30px;
-	font-size: 20px;
+	font-size: 18px;
+	z-index: -1
 }
 
 #comparison{
