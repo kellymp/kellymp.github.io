@@ -1,32 +1,52 @@
 body{
-	background: white;
+	background: #ffcccc;
 	font-family: arial;
+	max-width: 1080px;
+	margin: 0 auto;
 }
 
+h1,h2,h3,h4{
+	font-family: futura;
+}
 
 table{
 	width: 300px;
+	background: #f2f2f2;
+	border: 1px;
+	border-radius: 10px;
 }
 
 th{
-	text-transform: uppercase;
-	font-size: 25px;
+	font-family: futura;
+	text-transform: capitalize;
+	font-size: 20px;
+	padding: 10px;
+}
+
+th#name{
+	text-align: left;
+}
+
+th#year{
+	text-align: right;
 }
 
 tr .title{
 	font-size: 15px;
 	text-align: left;
+	padding: 5px
 }
 
 tr .year{
 	font-size: 15px;
 	text-align: right;
+	padding: 5px;
 }
 
-#people {
+.people {
 	position: absolute;
-	top: 0;
-	right:0;
+	top: 35px;
+	right: 0;
 	left: 0;
 	height: 250px;
 	width: 100%;
@@ -39,25 +59,26 @@ tr .year{
 	font-size: 5em;
 	text-align: center;
 	text-shadow: 5px 5px 5px #ffffe6;
-}
-
-.navbar{
-	margin-top: 110px;
+	position: relative;
+	top: 55px;
 }
 
 form{
 	width: 510px;
 	height: 170px;
+	margin: 50px;
 	background-image: url("walking.jpeg");
 	background-repeat: no-repeat;
 	border: solid #e6e6e6 3px;
-	border-radius: 5px;
+	border-radius: 10px;
+	position: relative;
+	bottom: 650px;
+	right: 30px;
 }
 
 form h4{
 	color: #e6e6e6;
 	font-size: 40px;
-	font-family: futura;
 	text-align: left;
 	margin-bottom: 2px;
 	margin-left: 6px;
@@ -69,4 +90,92 @@ form label{
 	padding: 5px;
 	text-align: center;
 	margin: 2px;
+}
+
+/* .navbar{
+	position: relative;
+	top: 50px;
+	bottom:0;
+	left: 0;
+	width: 150px;
+	border: solid 2px black;
+	background: #e6e6e6; 
+} */
+
+#filmography{
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	bottom: 260px;
+	left: 10px;
+	z-index: -1
+}
+
+ul#nav {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background:#e6e6e6; 
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li#nav  {
+	float: left;
+}
+
+li#nav a {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	font-family: futura;
+}
+
+li#nav  a:hover:not(.active) {
+    background-color: #336699;
+    color: white;
+}
+
+.content{
+	width: 650px;
+	margin: 30px;
+	font-size: 18px;
+	z-index: -1
+}
+
+#comparison{
+	border: 1px;
+	padding: 10px;
+	position: relative;
+	bottom: 650px;
+	left: 700px;
+	width: 250px;
+	background: #f2f2f2;
+	border-radius: 10px;
+	font-size: 15px
+}
+
+#about{
+	position: relative;
+	top: 100px;
+}
+
+.cite{
+	text-align: center;
+	font-size: 10px;
+}
+
+#wes{
+	height: 380px;
+	width: 270px;
+	position: relative;
+	left:700px;
+	bottom: 400px;
+	border: 1px;
+	border-radius: 10px;
+	vertical-align: text-top;
 }

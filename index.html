@@ -6,125 +6,115 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<img id="people" src="WAC.jpg" alt="Characters" />
-<h1 id="maintitle">Wes Anderson Films</h1>
 
-<p>Wes Anderson films are known for:</p>
-<ul>
-	<li>Highly controlled color palettes</li>
-	<li>use of symmetry</li>
-	<li>Focus on architectural elements</li>
-	<li>Reoccuring use of the font Futura</li>
-	<li>An illustrative story book quality</li>
-	<li>Casting of reoccuring actors (Ex: Bill Murray)</li>
-</ul>
-
-<ul class="navbar">
-	<li><a class="active" href="index.html">Home</a></li>
-	<li><a href="grand_budapest.html">The Grand Budapest Hotel</a></li>
-	<li><a href="moonrise_kingdom.html">Moonrise Kingdom</a></li>
-	<li><a href="life_aquatic.html">The Life Aquatic</a></li>
-</ul>
-
-<!--
 <div>
-<h2>Filmography</h2>
-<table border=1>
-	<tr>
-		<th colspan="2">Notable Filmography</th>
-	</tr>
-
-	<tr>
-		<th>Film</th>
-		<th>Year</th>
-	</tr>
-	<tr>
-		<td><nav> <a href="grand_budapest.html">The Grand Budapest Hotel</a></nav></td>
-		<td>2014</td>
-	</tr>
-	<tr>
-		<td><nav> <a href="moonrise_kingdom.html">Moonrise Kingdom</a></nav></td>
-		<td>2012</td>
-	</tr>
-	<tr>
-		<td><nav> <a href="life_aquatic.html">The Life Aquatic</a></nav></td>
-		<td>2004</td>
-	</tr>
-</table> <!-->
-
-<br>
-<div id="filmography">
-<table border="1">
-	<tr>
-		<th colspan="2">Filmography</th>
-	</tr>
-	<tr>
-		<th>Film</th>
-		<th>Year</th>
-	</tr>
-	<tr>
-		<td class="title">The Grand Budapest Hotel</td>
-		<td class="year">2014</td>
-	</tr>
-	<tr>
-		<td class="title">Moonrise Kingdom</td>
-		<td class="year">2012</td>
-	</tr>
-	<tr>
-		<td class="title">Fantastic Mr. Fox</td>
-		<td class="year">2009</td>
-	</tr>
-	<tr>
-		<td class="title">The Darjeeling Limited</td>
-		<td class="year">2007</td>
-	</tr>
-	<tr>
-		<td class="title">The Life Aquatic</td>
-		<td class="year">2004</td>
-	</tr>
-	<tr>
-		<td class="title">The Royal Tenenbaums</td>
-		<td class="year">2001</td>
-	</tr>
-	<tr>
-		<td class="title">Rushmore</td>
-		<td class="year">1998</td>
-	</tr>
-	<tr>
-		<td class="title">Bottle Rocket</td>
-		<td class="year">1996</td>
-	</tr>
-</table>
+	<img class="people" src="WAC.jpg" alt="Characters" />
+		<h1 id="maintitle">Wes Anderson Films</h1>
+<ul id="nav">
+	<li id=nav><a class="active" href="index.html">Home</a></li>
+	<li id=nav><a href="grand_budapest.html">The Grand Budapest Hotel</a></li>
+	<li id=nav><a href="moonrise_kingdom.html">Moonrise Kingdom</a></li>
+	<li id=nav><a href="life_aquatic.html">The Life Aquatic</a></li>
+</ul>
 </div>
 
-<div>
+<div class="content" id=about>
+	<h3>About</h3>
+	<p> Wes Anderson is an American film director and producer. Many of his films have been nominated for Academy Awards, and in 2014 he won a Golden Globe Award for his film, The Grand Budapest Hotel. His films are known for their:
+	<ul>	
+		<li>Highly controlled color palettes</li>
+		<li>Use of symmetry</li>
+		<li>Focus on architectural elements</li>
+		<li>Reoccuring use of the font Futura</li>
+		<li>An illustrative story book quality</li>
+		<li>Casting of reoccuring actors (Ex: Bill Murray)</li>
+	</ul>
+		<h3>Fun Facts</h3>
+			<ul>
+				<li>Many characters are named after his high school classmates</li>
+				<li>Each of his film's has a references to <em>Charlie Brown</em></li>
+				<li>He makes cameos in several of his films</li>
+			</ul>
+	<p>
+
+
+	<img id="wes" src="wes.jpg" alt="wes_anderson" />
+</div>
+
+
+<div id="filmography">
+	<table>
+		<tr>
+			<th colspan="2">filmography</th>
+		</tr>
+		<tr>
+			<th id="name">film</th>
+			<th id="year">year</th>
+		</tr>
+		<tr>
+			<td class="title"><nav><a href="grand_budapest.html">The Grand Budapest Hotel</a></nav></td>
+			<td class="year">2014</td>
+		</tr>
+		<tr>
+			<td class="title"><nav><a href="moonrise_kingdom.html">Moonrise Kingdom</a></nav></td>
+			<td class="year">2012</td>
+		</tr>
+		<tr>
+			<td class="title">Fantastic Mr. Fox</td>
+			<td class="year">2009</td>
+		</tr>
+		<tr>
+			<td class="title">The Darjeeling Limited</td>
+			<td class="year">2007</td>
+		</tr>
+		<tr>
+			<td class="title"><nav><a href="life_aquatic">The Life Aquatic</a></nav></td>
+			<td class="year">2004</td>
+		</tr>
+		<tr>
+			<td class="title">The Royal Tenenbaums</td>
+			<td class="year">2001</td>
+		</tr>
+		<tr>
+			<td class="title">Rushmore</td>
+			<td class="year">1998</td>
+		</tr>
+		<tr>
+			<td class="title">Bottle Rocket</td>
+			<td class="year">1996</td>
+		</tr>
+	</table>
+</div>
+
+<div class="content" id="comparison">
 	<h3>Website comparison</h3>
 	<p>
 	A website I found that is similar to my site is the <a href="http://www.imdb.com/name/nm0027572/?ref_=nv_sr_1">IMDB page for Wes Anderson.</a> I chose this website because like mine it also lists the filmography for his movies and navigates to separate pages for each one. When looking at the source code for this IMDB page i see that it is far more complicated than mine, but uses the div code to divide the site into separate sections. I also noticed that like my site the IMDB site uses tables, however that site contains pictures and much more text in the table cells than mine. 
 	</p>
 </div>
 
-<form action=thank-you.html>
 <div>
-		<div>
-		<h4 id="vote">Place your Vote!</h4>
+	<form action=thank-you.html>
+		<h4>Place your Vote!</h4>
 			<label>What is <em>your</em> favorite Wes Anderson film?</label>
-			<select name="page">
-				<option value="Grand Budapest">The Grand Budapest Hotel</option>
-				<option value="Moonrise">Moonrise Kingdom</option>
-				<option value="FF">Fantastic Mr. Fox</option> 
-				<option value="Darjeeling">The Darjeeling Limited</option>
-				<option value="Life Aquatic">The Life Aquatic</option>
-				<option value="Life Aquatic">The Life Aquatic</option>
-				<option value="RT">The Royal Tenenbaums</option>
-				<option value="Rushmore">Rushmore</option>
-				<option value="BR">Bottle Rocket</option>
-			</select>
+				<select name="page">
+					<option value="Grand Budapest">The Grand Budapest Hotel</option>
+					<option value="Moonrise">Moonrise Kingdom</option>
+					<option value="FF">Fantastic Mr. Fox</option> 
+					<option value="Darjeeling">The Darjeeling Limited</option>
+					<option value="Life Aquatic">The Life Aquatic</option>
+					<option value="Life Aquatic">The Life Aquatic</option>
+					<option value="RT">The Royal Tenenbaums</option>
+					<option value="Rushmore">Rushmore</option>
+					<option value="BR">Bottle Rocket</option>
+				</select>
 			<button type="submit">Go!</button>
-		</div>
+	</form>
 </div>
-</form>
 
-<p class="cite"> Thank you Matt Zoller Seitz for the publicly licensed <a href="http://www.peopleofprint.com/wp-content/uploads/2013/10/FeatureWesAnderson010.jpg">photo</a> from the <a href="http://www.abramsbooks.com/product/wes-anderson-collection_9780810997417/">Wes Anderson Collection</a>
+<div>
+	<p class="cite"> Thank you Matt Zoller Seitz for the publicly licensed <a href="http://www.peopleofprint.com/wp-content/uploads/2013/10/FeatureWesAnderson010.jpg">photo</a> from the <a href="http://www.abramsbooks.com/product/wes-anderson-collection_9780810997417/">Wes Anderson Collection</a> 
+	</p>
+</div>
 </body>
 </html>
