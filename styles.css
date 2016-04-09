@@ -105,7 +105,7 @@ form label{
 	display: inline-block;
 	position: relative;
 	margin: 10px;
-	bottom: 200px;
+	bottom: 260px;
 	left: 10px;
 	z-index: -1
 }
@@ -150,7 +150,7 @@ li#nav  a:hover:not(.active) {
 	border: 1px;
 	padding: 10px;
 	position: relative;
-	bottom: 550px;
+	bottom: 650px;
 	left: 700px;
 	width: 250px;
 	background: #f2f2f2;
@@ -169,11 +169,11 @@ li#nav  a:hover:not(.active) {
 }
 
 #wes{
-	height: 280px;
+	height: 380px;
 	width: 270px;
 	position: relative;
 	left:700px;
-	bottom: 250px;
+	bottom: 400px;
 	border: 1px;
 	border-radius: 10px;
 	vertical-align: text-top;
