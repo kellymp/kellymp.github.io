@@ -130,7 +130,6 @@ li#nav  a:hover:not(.active) {
 	font-size: 10px;
 	position: relative;
 	top: 80px;
-	border: solid black 1px;
 }
 #section1{
 	height: 450px;
@@ -159,7 +158,6 @@ li#nav  a:hover:not(.active) {
 }
 
 #section2{
-	border: solid black 1px;
 	height: 350px;
 	position: relative;
 	top:80px;
@@ -196,5 +194,4 @@ li#nav  a:hover:not(.active) {
 .form{
 	position: relative;
 	top: 80px;
-	border: dashed black 1px;
 }
