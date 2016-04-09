@@ -55,7 +55,9 @@ form{
 	background-image: url("walking.jpeg");
 	background-repeat: no-repeat;
 	border: solid #e6e6e6 3px;
-	border-radius: 5px;
+	border-radius: 10px;
+	position: relative;
+	top: 150px;
 }
 
 form h4{
@@ -119,6 +121,7 @@ li#nav a {
 	text-decoration: none;
 	padding: 10px 15px;
 	display: block;
+	font-family: futura;
 }
 
 li#nav  a:hover:not(.active) {
@@ -137,10 +140,18 @@ li#nav  a:hover:not(.active) {
 	border: 1px dashed black;
 	padding: 10px;
 	position: relative;
-	bottom: 10px;
+	bottom: 150px;
+	width: 250px;
+	background: #f2f2f2;
+	border-radius: 10px;
 }
 
 #about{
 	position: relative;
 	top: 100px;
+}
+
+.cite{
+	text-align: center;
+	font-size: 10px;
 }
