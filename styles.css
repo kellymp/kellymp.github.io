@@ -135,6 +135,7 @@ li#nav  a:hover:not(.active) {
 	height: 450px;
 	position: relative;
 	top: 60px;
+	border: solid black 1px;
 }
 
 #about{
@@ -148,13 +149,9 @@ li#nav  a:hover:not(.active) {
 }
 
 #wes{
-	height: 380px;
-	width: 270px;
-	border: 1px;
-	border-radius: 10px;
 	position: relative;
 	left: 780px;
-	bottom: 400px;
+	bottom: 430px;
 }
 
 #section2{
@@ -194,4 +191,17 @@ li#nav  a:hover:not(.active) {
 .form{
 	position: relative;
 	top: 80px;
+}
+
+.poster{
+	height: 380px;
+	width: 270px;
+	border: 1px;
+	border-radius: 10px;
+}
+
+#la {
+	position: relative;
+	left: 750px;
+	bottom: 300px;
 }
