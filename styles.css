@@ -89,9 +89,10 @@ form label{
 #filmography{
 	display: inline-block;
 	position: relative;
-	margin: 5px;
-	bottom: 145px;
-	left: 700px;
+	margin: 10px;
+	top: 130px;
+	left: 10px;
+
 	z-index: -1
 }
 
@@ -140,10 +141,12 @@ li#nav  a:hover:not(.active) {
 	border: 1px dashed black;
 	padding: 10px;
 	position: relative;
-	bottom: 150px;
+	bottom: 480px;
+	left: 700px;
 	width: 250px;
 	background: #f2f2f2;
 	border-radius: 10px;
+	font-size: 15px
 }
 
 #about{
