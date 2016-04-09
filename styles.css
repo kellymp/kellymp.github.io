@@ -12,7 +12,8 @@ h1,h2,h3,h4{
 table{
 	width: 300px;
 	background: #f2f2f2;
-	border: 1px solid black;
+	border: 1px;
+	border-radius: 10px;
 }
 
 th{
@@ -20,14 +21,20 @@ th{
 	text-transform: capitalize;
 	font-size: 20px;
 	padding: 10px;
-	border: 1px solid black;
+}
+
+th#name{
+	text-align: left;
+}
+
+th#year{
+	text-align: right;
 }
 
 tr .title{
 	font-size: 15px;
 	text-align: left;
 	padding: 5px
-	border: 1px solid black;
 }
 
 tr .year{
