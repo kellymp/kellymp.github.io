@@ -14,7 +14,7 @@ h1,h2,h3,h4{
 table{
 	width: 300px;
 	background: #f2f2f2;
-	border: 1px;
+	border: 1px solid black;
 	border-radius: 10px;
 }
 
@@ -92,10 +92,6 @@ form label{
 	margin: 2px;
 }
 
-#filmography{
-	z-index: -1
-}
-
 ul#nav {
 	list-style-type: none;
 	margin: 0;
@@ -129,12 +125,13 @@ li#nav  a:hover:not(.active) {
 	text-align: center;
 	font-size: 10px;
 	position: relative;
-	bottom: 300px;
+	top: 80px;
 }
 #section1{
 	height: 450px;
 	position: relative;
 	top: 60px;
+	border: solid black 1px;
 }
 
 #about{
@@ -148,19 +145,16 @@ li#nav  a:hover:not(.active) {
 }
 
 #wes{
-	height: 380px;
-	width: 270px;
-	border: 1px;
-	border-radius: 10px;
 	position: relative;
 	left: 780px;
-	bottom: 400px;
+	bottom: 430px;
 }
 
 #section2{
-	position: relative;
-	bottom: 350px;
 	height: 350px;
+	position: relative;
+	top:80px;
+	z-index: -1
 }
 
 #comparison{
@@ -192,5 +186,24 @@ li#nav  a:hover:not(.active) {
 
 .form{
 	position: relative;
-	bottom: 350px;
+	top: 80px;
+}
+
+.poster{
+	height: 380px;
+	width: 270px;
+	border: 1px;
+	border-radius: 10px;
+}
+
+#la {
+	position: relative;
+	left: 770px;
+	bottom: 450px;
+}
+
+#mk {
+	position: relative;
+	left: 770px;
+	bottom: 380px;
 }
