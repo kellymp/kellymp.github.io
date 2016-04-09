@@ -72,7 +72,8 @@ form{
 	border: solid #e6e6e6 3px;
 	border-radius: 10px;
 	position: relative;
-	bottom: 150px;
+	bottom: 650px;
+	right: 30px;
 }
 
 form h4{
