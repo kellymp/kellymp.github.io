@@ -1,0 +1,201 @@
+body{
+	background: #ffcccc;
+	font-family: arial;
+	max-width: 1080px;
+	margin: 0 auto;
+    height: 100%;
+    width: 100%
+}
+
+h1,h2,h3,h4{
+	font-family: futura;
+}
+
+table{
+	width: 300px;
+	background: #f2f2f2;
+	border: 1px;
+	border-radius: 10px;
+}
+
+th{
+	font-family: futura;
+	text-transform: capitalize;
+	font-size: 20px;
+	padding: 10px;
+}
+
+th#name{
+	text-align: left;
+}
+
+th#year{
+	text-align: right;
+}
+
+tr .title{
+	font-size: 15px;
+	text-align: left;
+	padding: 5px
+}
+
+tr .year{
+	font-size: 15px;
+	text-align: right;
+	padding: 5px;
+}
+
+.people {
+	position: absolute;
+	top: 35px;
+	right: 0;
+	left: 0;
+	height: 250px;
+	width: 100%;
+	z-index: -1;
+}
+
+#maintitle{
+	color: #336699;
+	font-family: futura;
+	font-size: 5em;
+	text-align: center;
+	text-shadow: 5px 5px 5px #ffffe6;
+	position: relative;
+	top: 55px;
+}
+
+form{
+	width: 510px;
+	height: 170px;
+	margin: 50px;
+	background-image: url("walking.jpeg");
+	background-repeat: no-repeat;
+	border: solid #e6e6e6 3px;
+	border-radius: 10px;
+	z-index: -1;
+}
+
+form h4{
+	color: #e6e6e6;
+	font-size: 40px;
+	text-align: left;
+	margin-bottom: 2px;
+	margin-left: 6px;
+}
+
+form label{
+	color: #e6e6e6;
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+	margin: 2px;
+}
+
+#filmography{
+	z-index: -1
+}
+
+ul#nav {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background:#e6e6e6; 
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li#nav  {
+	float: left;
+}
+
+li#nav a {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	font-family: futura;
+}
+
+li#nav  a:hover:not(.active) {
+    background-color: #336699;
+    color: white;
+}
+
+.cite{
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	bottom: 300px;
+}
+#section1{
+	height: 450px;
+	position: relative;
+	top: 60px;
+}
+
+#about{
+	width: 700px;
+	padding: 15px;
+}
+
+.content{
+	font-size: 18px;
+	z-index: -1
+}
+
+#wes{
+	height: 380px;
+	width: 270px;
+	border: 1px;
+	border-radius: 10px;
+	position: relative;
+	left: 780px;
+	bottom: 400px;
+}
+
+#section2{
+	position: relative;
+	bottom: 350px;
+	height: 350px;
+}
+
+#comparison{
+	border: 1px;
+	padding: 10px;
+	background: #f2f2f2;
+	border-radius: 10px;
+	width: 280px;
+	font-size: 15px;
+	position:relative;
+	left: 765px;
+	bottom:689px;
+	font-size: 15.5px;
+}
+#elements{
+	height: 350px;
+	width: 300px;
+	border: 1px;
+	border-radius: 10px;
+	position: relative;
+	bottom:333px;
+	left: 380px;
+}
+
+#vote{
+	position: relative;
+	left:250px;
+}
+
+.form{
+	position: relative;
+	bottom: 350px;
+}
+
+
+
+
+
