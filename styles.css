@@ -57,7 +57,7 @@ form{
 	border: solid #e6e6e6 3px;
 	border-radius: 10px;
 	position: relative;
-	top: 150px;
+	bottom: 150px;
 }
 
 form h4{
@@ -141,7 +141,7 @@ li#nav  a:hover:not(.active) {
 	border: 1px dashed black;
 	padding: 10px;
 	position: relative;
-	bottom: 480px;
+	bottom: 150px;
 	left: 700px;
 	width: 250px;
 	background: #f2f2f2;
