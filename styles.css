@@ -88,7 +88,7 @@ form label{
 	display: inline-block;
 	position: relative;
 	margin: 5px;
-	top: 80px;
+	top: 0px;
 	left: 700px;
 }
 
@@ -123,4 +123,22 @@ li#nav a {
 li#nav  a:hover:not(.active) {
     background-color: #336699;
     color: white;
+}
+
+.content{
+	width: 550px;
+	margin: 30px;
+	font-size: 20px;
+}
+
+#comparison{
+	border: 1px dashed black;
+	padding: 10px;
+	position: relative;
+	bottom: 10px;
+}
+
+#about{
+	position: relative;
+	top: 100px;
 }
