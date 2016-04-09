@@ -87,15 +87,13 @@ form label{
 #filmography{
 	display: inline-block;
 	position: relative;
-	left:700px;
-	bottom: 140px;
 	margin: 5px;
 }
 
-#comparison{
+/*#comparison{
 	width: 350px;
 	height: 350px;
-}
+}*/
 
 ul {
 	list-style-type: none;
@@ -108,7 +106,7 @@ ul {
 	width: 100%;
 }
 
-li{
+li {
 	float: left;
 }
 
