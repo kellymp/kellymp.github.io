@@ -259,10 +259,9 @@ tr .year{
 /* end css for secondary part of page*/
 
 #letter{
-	height: 200px;
-	width: 300px;
+	height: 300px;
+	width: 400px;
 	margin-left: 1px;
-	padding-left: 5px;
 	border-radius: 10px;
 	position: relative;
 	top: 150px;
@@ -273,6 +272,7 @@ tr .year{
 .form{
 	position: relative;
 	left: 200px;
+	bottom: 145px;
 
 }
 
