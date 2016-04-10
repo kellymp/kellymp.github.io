@@ -255,6 +255,8 @@ form label{
 	height: 500px;
 	z-index: -1;
 	border: 1px solid black;
+	position: relative;
+	top: 50px;
 }
 
 .about{
