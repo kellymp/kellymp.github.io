@@ -78,34 +78,6 @@ li#nav  a:hover:not(.active) {
 }
 /*End of CSS for top section of document*/
 
-/* CSS for form at bottomof the document
-form{
-	width: 510px;
-	height: 170px;
-	margin: 50px;
-	margin-left: 300px;
-	background-image: url("walking.jpeg");
-	background-repeat: no-repeat;
-	border: solid #e6e6e6 3px;
-	border-radius: 10px;
-	z-index: -1;
-}
-
-form h4{
-	color: #e6e6e6;
-	font-size: 40px;
-	text-align: left;
-	margin-bottom: 2px;
-	margin-left: 6px;
-}
-
-form label{
-	color: #e6e6e6;
-	font-size: 15px;
-	padding: 5px;
-	text-align: center;
-	margin: 2px;
-} */
 
 
 /*
@@ -121,8 +93,7 @@ form label{
 /*#wes{
 	position: relative;
 	left: 780px;
-	bottom: 430px;*/
-}
+	bottom: 430px;}*/
 
 /*
 #section2{
@@ -134,17 +105,7 @@ form label{
 
 
 /*
-#comparison{
-	border: 1px;
-	padding: 10px;
-	background: #f2f2f2;
-	border-radius: 10px;
-	width: 280px;
-	font-size: 15px;
-	position:relative;
-	left: 765px;
-	bottom:689px;
-	font-size: 15.5px;
+
 }
 #elements{
 	height: 350px;
@@ -192,29 +153,7 @@ form label{
 	
 }
 
-#thanks{
-	border: 1px;
-	border-radius: 10px;
-	position: relative;
-	left:300px;
-}
-
-#ty{
-	position: relative;
-	top: 70px;
-}
-
-#tyv{
-	text-align: center;
-}
 */
-
-/*
-#filmography{
-	margin-left: 5px;
-	height: 100%
-}*/
-
 
 /*This is the CSS for the main section of the document*/
 
@@ -252,7 +191,7 @@ form label{
 }
 /*End CSS for main section of the document*/
 
-/*CSS for secondary part of page*/
+/*Begin CSS for secondary part of page*/
 
 #secondary{
  	border: dashed 1px black;
@@ -318,3 +257,53 @@ tr .year{
 	padding: 5px;
 } 
 /* end css for secondary part of page*/
+
+/*Begin CSS for form*/
+
+.form{
+	position: relative;
+	top: 80px;
+}
+
+form{
+	width: 510px;
+	height: 170px;
+	margin: 50px;
+	margin-left: 300px;
+	background-image: url("walking.jpeg");
+	background-repeat: no-repeat;
+	border: solid #e6e6e6 4px;
+	border-radius: 10px;
+	z-index: -1;
+}
+
+form h4{
+	color: #e6e6e6;
+	font-size: 40px;
+	text-align: left;
+	margin-bottom: 2px;
+	margin-left: 6px;
+}
+
+form label{
+	color: #e6e6e6;
+	font-size: 15px;
+	padding: 2px;
+	margin: 2px;
+}
+
+#thanks{
+	border: 1px;
+	border-radius: 10px;
+	position: relative;
+	left:300px;
+}
+
+#ty{
+	position: relative;
+	top: 70px;
+}
+
+#tyv{
+	text-align: center;
+}
