@@ -45,6 +45,18 @@ tr .year{
 	padding: 5px;
 }
 
+tr .actor{
+	font-size: 15px;
+	text-align: center;
+	padding: 5px
+}
+
+tr .character{
+	font-size: 15px;
+	text-align: center;
+	padding: 5px;
+}
+
 .people {
 	position: absolute;
 	top: 35px;
@@ -211,6 +223,6 @@ li#nav  a:hover:not(.active) {
 #gh{
 	position: relative;
 	left: 770px;
-	bottom: 400px;
+	bottom: 460px;
 	
 }
