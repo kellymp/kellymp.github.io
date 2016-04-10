@@ -247,39 +247,31 @@ form label{
 	width: 100%;
 	position: relative;
 	top: 80px;
+	z-index: -1;
 }
 /*End CSS for main section of the document*/
 
-/*CSS for secondary part of page
+/*CSS for secondary part of page*/
 
-.secondary{
- 	border: solid 1px black;
- 	vertical-align: bottom;
-}
-
-#filmography{
-
-}
-
-#things{
-	display: inline-block;
+#secondary{
+ 	border: dashed 1px black;
+ 	position: relative;
+ 	top: 100px;
 }
 
 #comparison{
 	display: inline-block;
-	width: 300px;
+	width: 500px;
 	background: #f2f2f2;
 	border-radius: 10px;
 	padding: 5px;
 	margin: 5px;
 }
 
-/*CSS for filmography table*/
-/*
 table{
 	width: 300px;
 	background: #f2f2f2;
-	border: 1px solid black;
+	border: 1px;
 	border-radius: 10px;
 	margin: 5px;
 }
@@ -309,4 +301,4 @@ tr .year{
 	font-size: 15px;
 	text-align: right;
 	padding: 5px;
-} */
+} 
