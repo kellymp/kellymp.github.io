@@ -227,4 +227,18 @@ li#nav  a:hover:not(.active) {
 	
 }
 
+#thanks{
+	border: 1px;
+	border-radius: 10px;
+	position: relative;
+	left:300px;
+}
 
+#ty{
+	position: relative;
+	top: 70px;
+}
+
+#tyv{
+	text-align: center;
+}
