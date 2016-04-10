@@ -2,7 +2,7 @@ body{
 	background: #ffcccc;
 	font-family: arial;
 	max-width: 1080px;
-	margin: 0 auto;
+	margin: auto;
     height: 100%;
     width: 100%
 }
@@ -113,6 +113,7 @@ ul#nav {
 	background:#e6e6e6; 
 	position: fixed;
 	top: 0;
+	left: 0;
 	width: 100%;
 }
 
@@ -241,4 +242,9 @@ li#nav  a:hover:not(.active) {
 
 #tyv{
 	text-align: center;
+}
+
+#filmography{
+	margin-left: 5px;
+	height: 100%
 }
