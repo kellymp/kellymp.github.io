@@ -275,6 +275,12 @@ form label{
 	bottom: 335px;
 }
 
+h3{
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+}
+
 /* css for table*/
 table{
 	width: 300px;
