@@ -258,12 +258,22 @@ tr .year{
 } 
 /* end css for secondary part of page*/
 
+#letter{
+	height: 200px;
+	width: 300px;
+	margin-left: 1px;
+	padding-left: 5px;
+	border-radius: 10px;
+	position: relative;
+	top: 150px;
+}
+
 /*Begin CSS for form*/
 
 .form{
 	position: relative;
-	top: 80px;
 	left: 200px;
+
 }
 
 form{
