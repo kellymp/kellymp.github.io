@@ -109,6 +109,14 @@ li#nav  a:hover:not(.active) {
  	z-index: -1;
 }
 
+#ct{
+ 	height: 350px;
+ 	width:100%;
+ 	z-index: -1;
+ 	position: relative;
+ 	top: 350px;
+}
+
 #comparison{
 	display: inline-block;
 	width: 500px;
@@ -274,12 +282,11 @@ form label{
 	position: relative;
 	top: 50px;
 }
-
 #laf{
 	text-align: center;
 	font-size: 10px;
 	position: relative;
-	bottom: 100px;
+	top: 100px;
 }
 
 @media screen and (max-width: 600px) {
