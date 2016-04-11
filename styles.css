@@ -193,6 +193,7 @@ tr .character{
 #cast{
 	position: relative;
 	bottom: 250px;
+	z-index: -1
 }
 
 /*Begin CSS for form*/
@@ -272,4 +273,11 @@ form label{
 	font-size: 10px;
 	position: relative;
 	top: 50px;
+}
+
+#laf{
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	bottom: 100px;
 }
