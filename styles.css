@@ -266,3 +266,10 @@ form label{
 	position: relative;
 	top: 100px;
 }
+
+#mrf, #gbf{
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	top: 50px;
+}
