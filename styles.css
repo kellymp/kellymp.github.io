@@ -155,6 +155,7 @@ li#nav  a:hover:not(.active) {
 	top: 80px;
 	z-index: -1;
 }
+
 /*End CSS for main section of the document*/
 
 /*Begin CSS for secondary part of page*/
@@ -230,6 +231,11 @@ tr .year{
 	border-radius: 10px;
 	position: relative;
 	top: 150px;
+}
+
+#cast{
+	position: relative;
+	bottom: 250px;
 }
 
 /*Begin CSS for form*/
