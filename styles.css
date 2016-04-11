@@ -17,8 +17,8 @@ h1,h2,h3,h4{
 	top: 35px;
 	right: 0;
 	left: 0;
-	height: 250px;
 	width: 100%;
+	height: 250px;
 	z-index: -1;
 }
 
@@ -62,50 +62,6 @@ li#nav  a:hover:not(.active) {
     color: white;
 }
 /*End of CSS for top section of document*/
-
-
-/*#wes{
-	position: relative;
-	left: 780px;
-	bottom: 430px;}*/
-
-
-
-/*
-
-#vote{
-	position: relative;
-	left:250px;
-}
-
-
-/*.poster{
-	height: 380px;
-	width: 270px;
-	border: 1px;
-	border-radius: 10px;
-}
-
-#la {
-	position: relative;
-	left: 770px;
-	bottom: 450px;
-}
-
-#mk {
-	position: relative;
-	left: 770px;
-	bottom: 380px;
-}
-
-#gh{
-	position: relative;
-	left: 770px;
-	bottom: 400px;
-	
-}
-
-*/
 
 /*This is the CSS for the main section of the document*/
 
@@ -164,6 +120,10 @@ li#nav  a:hover:not(.active) {
 	position: relative;
 	left: 450px;
 	bottom: 340px;
+}
+
+#imdb{
+	z-index: 2;
 }
 
 h3{
@@ -233,6 +193,7 @@ tr .character{
 #cast{
 	position: relative;
 	bottom: 250px;
+	z-index: -1
 }
 
 /*Begin CSS for form*/
@@ -271,6 +232,11 @@ form label{
 	margin: 2px;
 }
 
+#vote{
+	position: relative;
+	left:250px;
+}
+
 #thanks{
 	border: 1px;
 	border-radius: 10px;
@@ -293,4 +259,25 @@ form label{
 	font-size: 10px;
 	position: relative;
 	bottom: 15px;
+}
+
+#tyc{
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	top: 100px;
+}
+
+#mrf, #gbf{
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	top: 50px;
+}
+
+#laf{
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	bottom: 100px;
 }
