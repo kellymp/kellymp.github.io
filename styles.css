@@ -79,53 +79,20 @@ li#nav  a:hover:not(.active) {
 /*End of CSS for top section of document*/
 
 
-
-/*
-.cite{
-	text-align: center;
-	font-size: 10px;
-	position: relative;
-	top: 80px;
-}
-*/
-
-
 /*#wes{
 	position: relative;
 	left: 780px;
 	bottom: 430px;}*/
 
-/*
-#section2{
-	height: 350px;
-	position: relative;
-	top:80px;
-	z-index: -1;
-}*/
 
 
 /*
-
-}
-#elements{
-	height: 350px;
-	width: 300px;
-	border: 1px;
-	border-radius: 10px;
-	position: relative;
-	bottom:333px;
-	left: 380px;
-}
 
 #vote{
 	position: relative;
 	left:250px;
 }
 
-.form{
-	position: relative;
-	top: 80px;
-}
 
 /*.poster{
 	height: 380px;
@@ -183,7 +150,6 @@ li#nav  a:hover:not(.active) {
 }
 
 #main{
-	border: 1px solid black;
 	width: 100%;
 	position: relative;
 	top: 80px;
@@ -194,7 +160,6 @@ li#nav  a:hover:not(.active) {
 /*Begin CSS for secondary part of page*/
 
 #secondary{
- 	border: dashed 1px black;
  	position: relative;
  	top: 100px;
  	height: 350px;
@@ -212,7 +177,7 @@ li#nav  a:hover:not(.active) {
 	margin: 5px;
 	position: relative;
 	left: 450px;
-	bottom: 335px;
+	bottom: 340px;
 }
 
 h3{
@@ -317,4 +282,12 @@ form label{
 
 #tyv{
 	text-align: center;
+}
+
+/*begin css for citation footer*/
+.cite{
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	bottom: 15px;
 }
