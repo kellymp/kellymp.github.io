@@ -11,21 +11,6 @@ h1,h2,h3,h4{
 	font-family: futura;
 }
 
-/*
-
-tr .actor{
-	font-size: 15px;
-	text-align: center;
-	padding: 5px
-}
-
-tr .character{
-	font-size: 15px;
-	text-align: center;
-	padding: 5px;
-}*/
-
-
 /*CSS for top section of document*/
 .people {
 	position: absolute;
@@ -222,6 +207,18 @@ tr .year{
 	text-align: right;
 	padding: 5px;
 } 
+
+tr .actor{
+	font-size: 15px;
+	text-align: center;
+	padding: 5px
+}
+
+tr .character{
+	font-size: 15px;
+	text-align: center;
+	padding: 5px;
+}
 /* end css for secondary part of page*/
 
 #letter{
