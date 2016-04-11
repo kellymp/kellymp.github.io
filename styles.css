@@ -11,21 +11,6 @@ h1,h2,h3,h4{
 	font-family: futura;
 }
 
-/*
-
-tr .actor{
-	font-size: 15px;
-	text-align: center;
-	padding: 5px
-}
-
-tr .character{
-	font-size: 15px;
-	text-align: center;
-	padding: 5px;
-}*/
-
-
 /*CSS for top section of document*/
 .people {
 	position: absolute;
@@ -155,6 +140,7 @@ li#nav  a:hover:not(.active) {
 	top: 80px;
 	z-index: -1;
 }
+
 /*End CSS for main section of the document*/
 
 /*Begin CSS for secondary part of page*/
@@ -221,6 +207,18 @@ tr .year{
 	text-align: right;
 	padding: 5px;
 } 
+
+tr .actor{
+	font-size: 15px;
+	text-align: center;
+	padding: 5px
+}
+
+tr .character{
+	font-size: 15px;
+	text-align: center;
+	padding: 5px;
+}
 /* end css for secondary part of page*/
 
 #letter{
@@ -230,6 +228,11 @@ tr .year{
 	border-radius: 10px;
 	position: relative;
 	top: 150px;
+}
+
+#cast{
+	position: relative;
+	bottom: 250px;
 }
 
 /*Begin CSS for form*/
